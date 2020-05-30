@@ -16,7 +16,17 @@ Post/validate k8 specs
 
 * Custom Installation
 
-  WIP :shipit:
+  Get dependencies for entire project.
+
+  #+begin_src bash
+npm run deps
+  #+end_src
+
+  Run client and server at the same time in a dev environment.
+
+  #+begin_src bash
+npm run dev
+  #+end_src
 
 * Code of Conduct
 

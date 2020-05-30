@@ -5,6 +5,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "deps-client": "npm ci --prefix client",
+    "deps-server": "npm ci --prefix server",
+    "deps": "npm ci && npm-run-all -p deps-client deps-server",
     "server": "npm start --prefix server",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
